@@ -23,7 +23,7 @@
 
   Não se preocupe, pode parecer complicado mas e mais simples do que parece :stuck_out_tongue_winking_eye:, e no
   dia de hoje vamos estudar a fundo esse assunto para aperfeisoarmos nosso conehcimento
-  em SQL, vamos nessa?
+  em SQL, vamos nessa? :rocket::rocket:
 
   ## Você será capaz de:
 
