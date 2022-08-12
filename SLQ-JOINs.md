@@ -42,11 +42,23 @@ vamos com tudo para o conteudo de hoje. :books:
 ## Conteúdos
   ### Entendendo o INNER JOIN
   Dentro dos metodos de junção o INNER JOIN talvez seja um dos mais utilizados,
-  o INNER JOIN junta os valores de diferentes tabelas se esses valores estiverem
-  relacionados
+  o que INNER JOIN faz e juntar os valores de diferentes tabelas se esses valores estiverem
+  relacionados, veja essa representação abaixo:
 
   <img height="210px" width="300px" src="https://cdn.pixabay.com/photo/2022/08/12/17/14/sql-7382120_960_720.jpg" alt="">
 
+  #### Sintaxe
+  Agora nos veremos a sintaxe no exemplo a seguir, nos vemos um codigo, uma query SQL 
+  que utiliza o INNER JOIN
+
+    SELECT * FROM tabela-a AS a
+    INNER JOIN tabela-b AS b
+    ON a.coluna = b.coluna
+
+  Esse codigo SQL utiliza o INNER JOIN e faz uma query em um banco ficticio, ele
+  busca todas as colunas da tabela a e busca tambem todas as colunas da tabela b 
+  desde que essas colunas satisfação a condição estebelecida pela cláusula ON, satisfeita
+  a condição da clausula ON a query retorna uma representação das tebelas 'a' e 'b' unidas.
   ### Entendendo o LEFT JOIN
 
   ### Entendendo o RIGTH JOIN
