@@ -336,7 +336,7 @@ vamos com tudo para o conteudo de hoje. :books:
   a direita apenas os dados que possuem correspondencia, caso não exista dado correspondente
   e retornado um NULL. Veja essa representação abaixo:
 
-  <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/12/22/51/22-51-49-355_960_720.jpg" alt="">
+  <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/12/22/51/sql-7382584_960_720.jpg" alt="">
 
   ### Entendendo o RIGTH JOIN
 
