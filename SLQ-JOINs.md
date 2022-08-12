@@ -27,6 +27,7 @@
   em SQL, vamos nessa? :rocket::rocket:
 
   ## Você será capaz de:
+  
     Com o conteúdo de hoje você será capaz de usar INNER JOIN, RIGTH JOIN, LEFT JOIN,
     FULL JOIN E CROSS JOIN em suas querys
 
