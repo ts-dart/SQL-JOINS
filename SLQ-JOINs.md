@@ -25,8 +25,8 @@
   Não se preocupe, pode parecer complicado mas é mais simples do que parece :stuck_out_tongue_winking_eye:, e no
   dia de hoje vamos estudar a fundo esse assunto para que você possa aperfeçoar seu conhecimento
   em SQL, vamos nessa? :rocket::rocket:
-  
-  ### Você será capaz de:
+
+  ## Você será capaz de:
     Com o conteúdo de hoje você será capaz de usar INNER JOIN, RIGTH JOIN, LEFT JOIN,
     FULL JOIN E CROSS JOIN em suas querys
 
