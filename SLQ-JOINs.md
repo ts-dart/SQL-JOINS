@@ -1,6 +1,6 @@
 # JOINs o que são, o que comem, onde vivem?
 ## O que vamos aprender?
-Hoje você irá aprender um conteúdo muito importante para avançar no seu
+Hoje você vai estudar um conteúdo muito importante para avançar no seu
 aprendizado de SQL, hoje aprenderemos sobre SQL JOINs, JOIN e uma cláusula muito
 importante dentro da linguagem sql, essa cláusula é usada para operações
 cujo objetivo é juntar colunas de diferentes tabelas, possibilitando que vocè
@@ -26,7 +26,7 @@ Não se preocupe, pode parecer complicado mas é mais simples do que parece :stu
 dia de hoje vamos estudar a fundo esse assunto para que você possa aperfeçoar seu conhecimento
 em SQL, vamos nessa? :rocket::rocket:
 
-#### Você será capaz de:
+### Você será capaz de:
 Com o conteúdo de hoje você será capaz de usar INNER JOIN, RIGTH JOIN, LEFT JOIN,
 FULL JOIN E CROSS JOIN em suas querys
 
@@ -42,14 +42,15 @@ vamos com tudo para o conteudo de hoje. :books:
 ## Conteúdos
 
   ### Criando nossa base de dados
-  Antes de começarmos a ver o conteudo de hoje nos vamos cirar um banco de dados,
-  nos usaremos esse banco durante o dia de hoje em momentos onde você colocara a mão 
-  no codigo, por isso vamos colocar a mão na massa 
+  Antes de começarmos a ver o conteúdo de hoje nós vamos criar um banco de dados,
+  nós usaremos esse banco durante o dia de hoje em momentos onde você colocará a mão 
+  no código, por isso vamos colocar a mão na massa.
+ 
 
   <img height="200px" width="200px" src="https://media0.giphy.com/media/o0vwzuFwCGAFO/200w.webp?cid=ecf05e47o5dmmlcgmouwv0vyvxnai024lw3y4in5ugkoccqg&rid=200w.webp&ct=g" alt="">
 
-  O codigo SQL abaixo cria uma base de dados, copie o codigo abaixo e cole no seu
-  Workbench, execute o codigo para cirar a base de dados.
+  O código SQL abaixo cria uma base de dados, copie o código abaixo e cole no seu
+  Workbench, execute o código para criar a base de dados.
 
     CREATE DATABASE IF NOT EXISTS SpotifyClone;
     USE SpotifyClone;
@@ -263,40 +264,40 @@ vamos com tudo para o conteudo de hoje. :books:
       (37,	12,	'2017-07-27 05:24:49',	10),
       (38,	13,	'2017-12-25 01:03:57',	10);
 
-    Agora com a nossa base de dados que sera usa em exemplos criada podemos 
-    prosseguir com o conteudo
+    Agora com a nossa base de dados que será usada em exemplos criada podemos 
+    prosseguir com o conteúdo
 
   ### Entendendo o INNER JOIN
-  Dentro dos metodos de junção o INNER JOIN talvez seja um dos mais utilizados,
-  o que INNER JOIN faz e juntar os valores de diferentes tabelas se esses valores estiverem
+  Dentro dos métodos de junção o INNER JOIN talvez seja um dos mais utilizados,
+  o que INNER JOIN faz é juntar os valores de diferentes tabelas se esses valores estiverem
   relacionados, veja essa representação abaixo:
 
   <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/12/17/14/sql-7382120_960_720.jpg" alt="">
 
   #### Sintaxe
-  Agora nos veremos a sintaxe. No exemplo a seguir, nos vemos um codigo, uma query SQL 
-  que utiliza o INNER JOIN
+  Agora nós veremos a sintaxe. No exemplo a seguir, nós vemos um código, uma query SQL 
+  que utiliza o INNER JOIN.
 
     SELECT * FROM tabela-a AS a
     INNER JOIN tabela-b AS b
     ON a.coluna = b.coluna;
 
-  Esse codigo SQL utiliza o INNER JOIN e faz uma query em um banco ficticio, ele
-  busca todas as colunas da tabela 'a' e busca tambem todas as colunas da tabela 'b', 
-  desde que essas colunas satisfação a condição estebelecida pela cláusula ON, satisfeita
-  a condição da clausula ON a query retorna uma representação das tebelas 'a' e 'b' unidas.
+  Esse código SQL utiliza o INNER JOIN e faz uma query em um banco fictício, ele
+  busca todas as colunas da tabela 'a' e busca também todas as colunas da tabela 'b', 
+  desde que essas colunas satisfação a condição estabelecida pela cláusula ON, satisfeita
+  A condição da cláusula ON a query retorna uma representação das tabelas 'a' e 'b' unidas.
 
   #### Exemplo 
-  No exemplo a seguir nos vamos usar a base de dados criado enteriormente, nos vamos
+  No exemplo a seguir nós vamos usar a base de dados criado anteriormente, nós vamos
   fazer uma query, que vai buscar os nomes dos artistas na tabela artistas e vai buscar
-  tambem o nome dos albuns que esse artista possui, na tabela albuns. O codigo ficaria assim:
+  também o nome dos álbuns que esse artista possui, na tabela álbuns. O código ficaria assim:
 
     SELECT a.artist, al.album FROM artists AS a
     INNER JOIN albums AS al
     ON a.artist_id = al.artist_id
 
-  Tambem e possivel acrecentar um outro join em nossa query, para buscarmos tambem
-  as musicas pertencentes a cada album. O codigo ficaria assim:
+  Também é possível acrescentar um outro join em nossa query, para buscarmos também
+  as músicas pertencentes a cada álbum. O código ficaria assim:
 
     SELECT a.artist, al.album, s.song FROM artists AS a
     INNER JOIN albums AS al
@@ -305,10 +306,10 @@ vamos com tudo para o conteudo de hoje. :books:
     ON al.album_id = s.album_id;
 
   #### O que e esse AS no codigo?
-  O comando AS e um acronimo para aliases, uma palvra em ingles que pode ser trduzida 
-  para apelido em portugues, e exatamente isso que esse comando faz em nossa query, ele da
+  O comando AS e um acrônimo para aliases, uma palavra em inglês que pode ser traduzida 
+  para apelido em portugues, é exatamente isso que esse comando faz em nossa query, ele dá
   um apelido para a tabela, o comando AS renomeia temporariamente uma tabela, 
-  isso existe como uma forma organizar melhor a query e prevenir erros. Um codigo sem
+  isso existe como uma forma organizar melhor a query e prevenir erros. Um código sem
   o comando AS ficaria assim:
 
     SELECT artist, album, song FROM artists
@@ -317,16 +318,16 @@ vamos com tudo para o conteudo de hoje. :books:
     INNER JOIN songs
     ON album_id = album_id;
 
-  Esse codigo falharia e retornaria o seguinte erro:
+  Essa query falharia e retornaria o seguinte erro:
 
     Column 'album_id' in on clause is ambiguous
 
-  Esse erro ocorre por que na utima linha, no comando ON ele encontra duas vezes 
-  'album_id' e não consegue diferenciar de qual tabela eles enstão vindo.
+  Esse erro ocorre porque na última linha, no comando ON ele encontra duas vezes 
+  'album_id' e não consegue diferenciar de qual tabela eles estão vindo.
 
   #### Exercícios de fixação
-  * Fassa uma query que busque os nomes dos usuairos na tabela 'users' e busque tambem
-  o plano de cada usuario e o valor do plano de cada usuario
+  * Faça uma query que busque os nomes dos usuários na tabela 'users' e busque também
+  o plano de cada usuário e o valor do plano de cada usuário.
 
   ### Entendendo o LEFT JOIN
 
