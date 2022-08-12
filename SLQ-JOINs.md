@@ -287,6 +287,22 @@ vamos com tudo para o conteudo de hoje. :books:
   a condição da clausula ON a query retorna uma representação das tebelas 'a' e 'b' unidas.
 
   #### Exemplo 
+  No exemplo a seguir nos vamos usar a base de dados criado enteriormente, nos vamos
+  fazer uma query, que vai buscar os nomes dos artistas na tabela artistas e vai buscar
+  tambem o nome dos albuns que esse artista possui, na tabela albuns. O codigo ficaria assim:
+
+    SELECT a.artist, al.album FROM artists AS a
+    INNER JOIN albums AS al
+    ON a.artist_id = al.artist_id
+
+  Tambem e possivel acrecentar um outro join em nossa query, para buscarmos tambem
+  as musicas que pertencente a cada album. O codigo ficaria assim:
+
+    SELECT a.artist, al.album, s.song FROM artists AS a
+    INNER JOIN albums AS al
+    ON a.artist_id = al.artist_id
+    INNER JOIN songs AS s
+    ON al.album_id = s.album_id;
 
   ### Entendendo o LEFT JOIN
 
