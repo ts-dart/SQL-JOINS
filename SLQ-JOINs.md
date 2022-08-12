@@ -296,7 +296,7 @@ vamos com tudo para o conteudo de hoje. :books:
     ON a.artist_id = al.artist_id
 
   Tambem e possivel acrecentar um outro join em nossa query, para buscarmos tambem
-  as musicas que pertencente a cada album. O codigo ficaria assim:
+  as musicas pertencentes a cada album. O codigo ficaria assim:
 
     SELECT a.artist, al.album, s.song FROM artists AS a
     INNER JOIN albums AS al
@@ -304,6 +304,27 @@ vamos com tudo para o conteudo de hoje. :books:
     INNER JOIN songs AS s
     ON al.album_id = s.album_id;
 
+  #### O que e esse AS no codigo?
+  O comando AS e um acronimo para aliases, uma palvra em ingles que pode ser trduzida 
+  para apelido em portugues, e exatamente isso que esse comando faz em nossa query, ele da
+  um apelido para a tabela, o comando AS renomeia temporariamente uma tabela, 
+  isso existe como uma forma organizar melhor a query e prevenir erros. Um codigo sem
+  o comando AS ficaria assim:
+
+    SELECT artist, album, song FROM artists
+    INNER JOIN albums
+    ON artist_id = artist_id
+    INNER JOIN songs
+    ON album_id = album_id;
+
+  Esse codigo falharia e retornaria o seguinte erro:
+
+    Column 'album_id' in on clause is ambiguous
+
+  Esse erro ocorre por que na utima linha, no comando ON ele encontra duas vezes 
+  'album_id' e não consegue diferenciar de qual tabela eles enstão vindo.
+
+  
   ### Entendendo o LEFT JOIN
 
   ### Entendendo o RIGTH JOIN
