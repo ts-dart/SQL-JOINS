@@ -324,7 +324,10 @@ vamos com tudo para o conteudo de hoje. :books:
   Esse erro ocorre por que na utima linha, no comando ON ele encontra duas vezes 
   'album_id' e não consegue diferenciar de qual tabela eles enstão vindo.
 
-  
+  #### Exercícios de fixação
+  * Fassa uma query que busque os nomes dos usuairos na tabela 'users' e busque tambem
+  o plano de cada usuario e o valor do plano de cada usuario
+
   ### Entendendo o LEFT JOIN
 
   ### Entendendo o RIGTH JOIN
@@ -339,3 +342,8 @@ vamos com tudo para o conteudo de hoje. :books:
 
 ## Recursos Adicionais
 
+
+Resolução exercicios de fiação um
+SELECT u.user, p.plan, p.value_plan FROM users AS u
+INNER JOIN plans AS p
+ON u.plan_id = p.plan_id;
