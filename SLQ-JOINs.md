@@ -41,12 +41,12 @@ vamos com tudo para o conteudo de hoje. :books:
   
 ## Conteúdos
 
-  ### Criando um banco de dados para usarmos no conteudo
+  ### Criando nossa base de dados
   Antes de começarmos a ver o conteudo de hoje nos vamos cirar um banco de dados,
   nos usaremos esse banco durante o dia de hoje em momentos onde você colocara a mão 
   no codigo, por isso vamos colocar a mão na massa 
 
-  <img height="100px" width="100px" src="https://www.reddit.com/r/CatGifs/comments/48sql9/hacker_cat_at_it_again_taking_over_the_webs/" alt="">
+  <img height="200px" width="200px" src="https://media0.giphy.com/media/o0vwzuFwCGAFO/200w.webp?cid=ecf05e47o5dmmlcgmouwv0vyvxnai024lw3y4in5ugkoccqg&rid=200w.webp&ct=g" alt="">
 
   O codigo SQL abaixo cria uma base de dados, copie o codigo abaixo e cole no seu
   Workbench, execute o codigo para cirar a base de dados.
@@ -265,7 +265,7 @@ vamos com tudo para o conteudo de hoje. :books:
 
     Agora com a nossa base de dados que sera usa em exemplos criada podemos 
     prosseguir com o conteudo
-    
+
   ### Entendendo o INNER JOIN
   Dentro dos metodos de junção o INNER JOIN talvez seja um dos mais utilizados,
   o que INNER JOIN faz e juntar os valores de diferentes tabelas se esses valores estiverem
