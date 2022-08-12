@@ -51,7 +51,6 @@ vamos com tudo para o conteudo de hoje. :books:
   O codigo SQL abaixo cria uma base de dados, copie o codigo abaixo e cole no seu
   Workbench, execute o codigo para cirar a base de dados.
 
-  <details>
     CREATE DATABASE IF NOT EXISTS SpotifyClone;
     USE SpotifyClone;
 
@@ -263,8 +262,6 @@ vamos com tudo para o conteudo de hoje. :books:
       (36,	21,	'2017-12-04 05:33:43',	10),
       (37,	12,	'2017-07-27 05:24:49',	10),
       (38,	13,	'2017-12-25 01:03:57',	10);
-
-    </details>
 
     Agora com a nossa base de dados que sera usa em exemplos criada podemos 
     prosseguir com o conteudo
