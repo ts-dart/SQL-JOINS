@@ -1,4 +1,4 @@
-# JOINs o que são o que comem, onde vivem?
+# JOINs o que são, o que comem, onde vivem?
 ## O que vamos aprender?
 Hoje você irá aprender um conteúdo muito importante para avançar no seu
 aprendizado de SQL, hoje aprenderemos sobre SQL JOINs, JOIN e uma cláusula muito
@@ -40,23 +40,22 @@ vamos com tudo para o conteudo de hoje. :books:
 <img src="https://media4.giphy.com/media/J4JSpIwM6y3Q6xnHgg/200.webp?cid=ecf05e47dngwjz1ezw618lkzhkti3msp24vvocxexjr32crf&rid=200.webp&ct=g" alt="Um gif mostrando uma mão saindo de um monitor de computador antigo branco e uma mulher apertando essa mão que sai da tela do computador">
   
 ## Conteúdos
+  ### Entendendo o INNER JOIN
+  Dentro dos metodos de junção o INNER JOIN talvez seja um dos mais utilizados,
+  o INNER JOIN junta os valores de diferentes tabelas se esses valores estiverem
+  relacionados
 
-  <h3>Entendendo o INNER JOIN</h3>
-    Dentro dos metodos de junção o INNER JOIN talvez seja um dos mais utilizados,
-    o INNER JOIN junta os valores de diferentes tabelas se esses valores estiverem
-    relacionados
+  <img src="https://drive.google.com/file/d/115k4O3mJkes0zMcc4AHqjMz6MKsMFcpa/view" alt="Um gif mostrando uma mão saindo de um monitor de computador antigo branco e uma mulher apertando essa mão que sai da tela do computador">
 
-    <img src="https://media4.giphy.com/media/J4JSpIwM6y3Q6xnHgg/200.webp?cid=ecf05e47dngwjz1ezw618lkzhkti3msp24vvocxexjr32crf&rid=200.webp&ct=g" alt="Um gif mostrando uma mão saindo de um monitor de computador antigo branco e uma mulher apertando essa mão que sai da tela do computador">
+  ### Entendendo o LEFT JOIN
 
-  <h3>Entendendo o LEFT JOIN</h3>
+  ### Entendendo o RIGTH JOIN
 
-  <h3>Entendendo o RIGTH JOIN</h3>
+  ### Entendendo o LEFT JOIN
 
-  <h3>Entendendo o LEFT JOIN</h3>
+  ### Entendendo o FULL JOIN
 
-  <h3>Entendendo o FULL JOIN</h3>
-
-  <h3>Entendendo o CROSS JOIN</h3>
+  ### Entendendo o CROSS JOIN
 
 ## Vamos praticar!
 
