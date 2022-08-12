@@ -1,4 +1,5 @@
-# O que vamos aprender?
+# Entendendo JOINs
+## O que vamos aprender?
   Hoje você irá aprender um conteúdo muito importante para avançar no seu
   aprendizado de SQL, hoje aprenderemos sobre SQL JOINs, JOIN e uma cláusula muito
   importante dentro da linguagem sql, essa cláusula é usada para operações
@@ -25,11 +26,11 @@
   dia de hoje vamos estudar a fundo esse assunto para que você possa aperfeçoar seu conhecimento
   em SQL, vamos nessa? :rocket::rocket:
 
-  ## Você será capaz de:
+  ### Você será capaz de:
     Com o conteúdo de hoje você será capaz de usar INNER JOIN, RIGTH JOIN, LEFT JOIN,
     FULL JOIN E CROSS JOIN em suas querys
 
-# Porque isso é importante?
+## Porque isso é importante?
   Os JOINs dentro da linguaguem SQL, são uma ferramenta de suma iportancia que 
   todo dev que trabalha com SQL precisa ter em sua caixa de ferramentas! os Joins 
   tem como função, juntar dados de acordo com condições especificas e são fundamentais
@@ -38,21 +39,21 @@
 
   <img src="https://media4.giphy.com/media/J4JSpIwM6y3Q6xnHgg/200.webp?cid=ecf05e47dngwjz1ezw618lkzhkti3msp24vvocxexjr32crf&rid=200.webp&ct=g" alt="Um gif mostrando uma mão saindo de um monitor de computador antigo branco e uma mulher apertando essa mão que sai da tela do computador">
   
-# Conteúdos
-  ## Entendendo o INNER JOIN
+## Conteúdos
+  ### Entendendo o INNER JOIN
     so testando uma coisa aqui
 
-  ## Entendendo o LEFT JOIN
+  ### Entendendo o LEFT JOIN
 
-  ## Entendendo o RIGTH JOIN
+  ### Entendendo o RIGTH JOIN
 
-  ## Entendendo o LEFT JOIN
+  ### Entendendo o LEFT JOIN
 
-  ## Entendendo o FULL JOIN
+  ### Entendendo o FULL JOIN
 
-  ## Entendendo o CROSS JOIN
+  ### Entendendo o CROSS JOIN
 
-# Vamos praticar!
+## Vamos praticar!
 
-# Recursos Adicionais
+## Recursos Adicionais
 
