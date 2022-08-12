@@ -270,7 +270,7 @@ vamos com tudo para o conteudo de hoje. :books:
   ### Entendendo o INNER JOIN
   Dentro dos métodos de junção o INNER JOIN talvez seja um dos mais utilizados,
   o que INNER JOIN faz é juntar os valores de diferentes tabelas se esses valores estiverem
-  relacionados, veja essa representação abaixo:
+  relacionados. Veja essa representação abaixo:
 
   <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/12/17/14/sql-7382120_960_720.jpg" alt="">
 
@@ -330,10 +330,15 @@ vamos com tudo para o conteudo de hoje. :books:
   o plano de cada usuário e o valor do plano de cada usuário.
 
   ### Entendendo o LEFT JOIN
+  Outro metodo muito utilizado para fazer a união entre tabelas e o metodo LEFT JOIN,
+  o LEFT JOIN não e muito difetente do INNER JOIN, o LEFT JOIN tem seu foco na tabela
+  a esquerda, retornando todos os dados presentes na tabela a esquerda, e retornando da tabela 
+  a direita apenas os dados que possuem correspondencia, caso não exista dado correspondente
+  e retornado um NULL. Veja essa representação abaixo:
+
+  <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/12/22/51/22-51-49-355_960_720.jpg" alt="">
 
   ### Entendendo o RIGTH JOIN
-
-  ### Entendendo o LEFT JOIN
 
   ### Entendendo o FULL JOIN
 
