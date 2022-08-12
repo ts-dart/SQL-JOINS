@@ -51,6 +51,7 @@ vamos com tudo para o conteudo de hoje. :books:
   O codigo SQL abaixo cria uma base de dados, copie o codigo abaixo e cole no seu
   Workbench, execute o codigo para cirar a base de dados.
 
+  <details>
     CREATE DATABASE IF NOT EXISTS SpotifyClone;
     USE SpotifyClone;
 
@@ -178,14 +179,14 @@ vamos com tudo para o conteudo de hoje. :books:
       (5,	'Time Fireworks',	152,	2),
       (6,	'Magic Circus',	105,	3),
       (7,	'Honey, So Do I',	207,	3),
-      (8,	"Sweetie, Let's Go Wild",	139,	3), # <-- PODE SER AQUI
+      (8,	"Sweetie, Let's Go Wild",	139,	3),
       (9,	'She Knows',	244,	3),
       (10, 'Fantasy For Me',	100,	4),
       (11, 'Celebration Of More',	146,	4),
       (12, 'Rock His Everything',	223,	4),
       (13, 'Home Forever',	231,	4),
       (14, 'Diamond Power',	241,	4),
-      (15, "Let's Be Silly",	132,	4), # <-- AQUI
+      (15, "Let's Be Silly",	132,	4),
       (16, 'Thang Of Thunder',	240,	5),
       (17, 'Words Of Her Life',	185,	5),
       (18, 'Without My Streets',	176,	5),
@@ -197,18 +198,18 @@ vamos com tudo para o conteudo de hoje. :books:
       (24, 'Finding My Traditions',	179,	7),
       (25, 'Walking And Man',	229,	7),
       (26, 'Hard And Time',	135,	7),
-      (27, "Honey, I'm A Lone Wolf",	150,	7), # <-- AQUI
-      (28, "She Thinks I Won't Stay Tonight",	166,	8), # <-- AQUI
-      (29, "He Heard You're Bad For Me",	154,	8), # <-- AQUI
-      (30, "He Hopes We Can't Stay",	210,	8), # <-- AQUI
+      (27, "Honey, I'm A Lone Wolf",	150,	7),
+      (28, "She Thinks I Won't Stay Tonight",	166,	8), 
+      (29, "He Heard You're Bad For Me",	154,	8), 
+      (30, "He Hopes We Can't Stay",	210,	8), 
       (31, 'I Know I Know',	117,	8),
-      (32, "He's Walking Away",	159,	9), # <-- AQUI
-      (33, "He's Trouble",	138,	9), # <-- AQUI
+      (32, "He's Walking Away",	159,	9),
+      (33, "He's Trouble",	138,	9), 
       (34, 'I Heard I Want To Bo Alone',	120,	9),
       (35, 'I Ride Alone',	151,	9),
       (36, 'Honey',	79,	10),
       (37, 'You Cheated On Me',	95,	10),
-      (38, "Wouldn't It Be Nice",	213,	10), # <-- AQUI
+      (38, "Wouldn't It Be Nice",	213,	10),
       (39, 'Baby',	136,	10),
       (40, 'You Make Me Feel So..',	83,	10);
 
@@ -262,6 +263,8 @@ vamos com tudo para o conteudo de hoje. :books:
       (36,	21,	'2017-12-04 05:33:43',	10),
       (37,	12,	'2017-07-27 05:24:49',	10),
       (38,	13,	'2017-12-25 01:03:57',	10);
+
+    </details>
 
     Agora com a nossa base de dados que sera usa em exemplos criada podemos 
     prosseguir com o conteudo
