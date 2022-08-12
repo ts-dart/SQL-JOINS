@@ -26,7 +26,6 @@
   dia de hoje vamos estudar a fundo esse assunto para que você possa aperfeçoar seu conhecimento
   em SQL, vamos nessa? :rocket::rocket:
 
-  /### Você será capaz de:
   <h3>Você será capaz de:</h3>
     Com o conteúdo de hoje você será capaz de usar INNER JOIN, RIGTH JOIN, LEFT JOIN,
     FULL JOIN E CROSS JOIN em suas querys
@@ -41,18 +40,19 @@
   <img src="https://media4.giphy.com/media/J4JSpIwM6y3Q6xnHgg/200.webp?cid=ecf05e47dngwjz1ezw618lkzhkti3msp24vvocxexjr32crf&rid=200.webp&ct=g" alt="Um gif mostrando uma mão saindo de um monitor de computador antigo branco e uma mulher apertando essa mão que sai da tela do computador">
   
 ## Conteúdos
-  ### Entendendo o INNER JOIN
+
+  <h3>Entendendo o INNER JOIN</h3>
     so testando uma coisa aqui
 
-  ### Entendendo o LEFT JOIN
+  <h3>Entendendo o LEFT JOIN</h3>
 
-  ### Entendendo o RIGTH JOIN
+  <h3>Entendendo o RIGTH JOIN</h3>
 
-  ### Entendendo o LEFT JOIN
+  <h3>Entendendo o LEFT JOIN</h3>
 
-  ### Entendendo o FULL JOIN
+  <h3>Entendendo o FULL JOIN</h3>
 
-  ### Entendendo o CROSS JOIN
+  <h3>Entendendo o CROSS JOIN</h3>
 
 ## Vamos praticar!
 
