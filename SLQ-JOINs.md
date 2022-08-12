@@ -45,7 +45,7 @@ vamos com tudo para o conteudo de hoje. :books:
   o INNER JOIN junta os valores de diferentes tabelas se esses valores estiverem
   relacionados
 
-  <img src="https://cdn.pixabay.com/photo/2022/08/12/17/14/sql-7382120_960_720.jpg" alt="">
+  <img src="https://cdn.pixabay.com/photo/2022/08/12/17/14/sql-7382120_960_720.jpg" height="400px" width="400px"alt="">
 
   ### Entendendo o LEFT JOIN
 
