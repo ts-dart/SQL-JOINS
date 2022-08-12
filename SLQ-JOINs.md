@@ -26,7 +26,8 @@
   dia de hoje vamos estudar a fundo esse assunto para que você possa aperfeçoar seu conhecimento
   em SQL, vamos nessa? :rocket::rocket:
 
-  ### Você será capaz de:
+  /### Você será capaz de:
+  <h3>Você será capaz de:</h3>
     Com o conteúdo de hoje você será capaz de usar INNER JOIN, RIGTH JOIN, LEFT JOIN,
     FULL JOIN E CROSS JOIN em suas querys
 
