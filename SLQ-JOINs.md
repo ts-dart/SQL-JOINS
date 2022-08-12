@@ -271,7 +271,7 @@ vamos com tudo para o conteudo de hoje. :books:
   o que INNER JOIN faz e juntar os valores de diferentes tabelas se esses valores estiverem
   relacionados, veja essa representação abaixo:
 
-  <img height="210px" width="300px" src="https://cdn.pixabay.com/photo/2022/08/12/17/14/sql-7382120_960_720.jpg" alt="">
+  <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/12/17/14/sql-7382120_960_720.jpg" alt="">
 
   #### Sintaxe
   Agora nos veremos a sintaxe. No exemplo a seguir, nos vemos um codigo, uma query SQL 
