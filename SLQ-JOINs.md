@@ -1,4 +1,4 @@
-# Entendendo JOINs
+# JOINs o que são o que comem, onde vivem?
 ## O que vamos aprender?
   Hoje você irá aprender um conteúdo muito importante para avançar no seu
   aprendizado de SQL, hoje aprenderemos sobre SQL JOINs, JOIN e uma cláusula muito
@@ -7,7 +7,7 @@
   escreva querys mais sofisticadas e complexas que atendam melhor a um determinado
   objetivo. Existem diferentes tipos de JOINs sendo eles os mais comuns:
 
-  * INNER JOIN: faz uma junção retornando valores em comum entre diferentes tabelas 
+  * INNER JOIN: faz uma junção retornando valores de diferentes tabelas 
     correspondente a condição
 
   * RIGHT JOIN: faz uma junção retornado os valores da tabela à esquerda e retornando
@@ -27,6 +27,7 @@
   em SQL, vamos nessa? :rocket::rocket:
 
   <h3>Você será capaz de:</h3>
+  ### Você será capaz de:
     Com o conteúdo de hoje você será capaz de usar INNER JOIN, RIGTH JOIN, LEFT JOIN,
     FULL JOIN E CROSS JOIN em suas querys
 
@@ -35,14 +36,18 @@
   todo dev que trabalha com SQL precisa ter em sua caixa de ferramentas! os Joins 
   tem como função, juntar dados de acordo com condições especificas e são fundamentais
   na escrita de querys, quando se precisa buscar dados em mais de uma tabela, dada sua importancia 
-  vamos com tudo para o conteudo de hoje. 
+  vamos com tudo para o conteudo de hoje. :books: 
 
   <img src="https://media4.giphy.com/media/J4JSpIwM6y3Q6xnHgg/200.webp?cid=ecf05e47dngwjz1ezw618lkzhkti3msp24vvocxexjr32crf&rid=200.webp&ct=g" alt="Um gif mostrando uma mão saindo de um monitor de computador antigo branco e uma mulher apertando essa mão que sai da tela do computador">
   
 ## Conteúdos
 
   <h3>Entendendo o INNER JOIN</h3>
-    so testando uma coisa aqui
+    Dentro dos metodos de junção o INNER JOIN talvez seja um dos mais utilizados,
+    o INNER JOIN junta os valores de diferentes tabelas se esses valores estiverem
+    relacionados
+
+    <img src="https://media4.giphy.com/media/J4JSpIwM6y3Q6xnHgg/200.webp?cid=ecf05e47dngwjz1ezw618lkzhkti3msp24vvocxexjr32crf&rid=200.webp&ct=g" alt="Um gif mostrando uma mão saindo de um monitor de computador antigo branco e uma mulher apertando essa mão que sai da tela do computador">
 
   <h3>Entendendo o LEFT JOIN</h3>
 
