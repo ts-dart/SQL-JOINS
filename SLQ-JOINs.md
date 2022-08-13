@@ -404,7 +404,13 @@ todos os conteudos aprendidos no dia de hoje.
 <img src="https://media2.giphy.com/media/13HBDT4QSTpveU/200.webp?cid=ecf05e47tzetoapbkifyfkvikjflg7shnbpl6b2spwnv2g7o&rid=200.webp&ct=g" alt="">
 
 Para os exercicios a seguir, nos vamos utilizar a base de dados Sakila, para isso click no link a seguir
-para fazer o download do arquivo sql, e cria uma base de dados a partir dele. [CLIQUE AQUI PARA BAXIAR O ARQUIVO](https://docs.google.com/uc?export=download&id=1W0ASx1b20AV57dm2wmyFzx4oDFDsgKI2)
+para fazer o download do arquivo sql, utilize esse arquivo para criar uma base de dados a partir dele. [CLIQUE AQUI](https://docs.google.com/uc?export=download&id=1W0ASx1b20AV57dm2wmyFzx4oDFDsgKI2)
+
+* Exercicio 1: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city e busque localizações refererntes a essas cidades na
+tabela address. 
+
+* Exercicio 2: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city, busque localizações refererntes a essas cidades na
+tabela address e busque tambem os paises em que essas cidades estão. 
 
 ## Recursos Adicionais (opcional)
 * [SQL JOIN(INNER, LEFT, RIGHT e FULL) combinando tabelas! por Trybe.](https://blog.betrybe.com/sql/sql-join/)
