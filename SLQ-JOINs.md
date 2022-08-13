@@ -402,7 +402,10 @@ vamos com tudo para o conteudo de hoje. :books:
 
 ## Vamos praticar!
 
-## Recursos Adicionais
+## Recursos Adicionais (opcional)
+* [SQL JOIN(INNER, LEFT, RIGHT e FULL) combinando tabelas! por Trybe](https://blog.betrybe.com/sql/sql-join/)
+* [SQL JOIN: Entenda como funciona o retorno dos dados, por DevMedia](https://www.devmedia.com.br/sql-join-entenda-como-funciona-o-retorno-dos-dados/31006)
+* [SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS, por Alura](https://www.alura.com.br/artigos/join-em-sql)
 
 
 Resolução exercicios de fiação um
