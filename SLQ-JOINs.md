@@ -398,7 +398,6 @@ vamos com tudo para o conteudo de hoje. :books:
     da tabela 'users' pelo campo 'user_id'. 
 
   ### Entendendo o FULL JOIN
-  Vamos agora studar sobre o FULL JOIN
 
 ## Vamos praticar!
 
