@@ -331,14 +331,43 @@ vamos com tudo para o conteudo de hoje. :books:
 
   ### Entendendo o LEFT JOIN
   Outro metodo muito utilizado para fazer a união entre tabelas e o metodo LEFT JOIN,
-  o LEFT JOIN não e muito difetente do INNER JOIN, o LEFT JOIN tem seu foco na tabela
+  o LEFT JOIN não e muito difetente do INNER JOIN, enquanto o INNER JOIN busca apenas
+  os valores correspondentes, o LEFT JOIN tem seu foco na tabela
   a esquerda, retornando todos os dados presentes na tabela a esquerda, e retornando da tabela 
   a direita apenas os dados que possuem correspondencia, caso não exista dado correspondente
   e retornado um NULL. Veja essa representação abaixo:
 
   <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/12/22/51/sql-7382584_960_720.jpg" alt="">
 
+  #### Sintaxe
+  Agora nós veremos a sintaxe do LEFT JOIN, analise a query a seguir e perçeba as
+  semelhanas que existem com o INNER JOIN
+
+    SELECT * FROM tabela1 AS t1
+    LEFT JOIN tabela2 AS t2
+    ON t1.coluna = t2.coluna;
+
+  A sintaxe do LEFT JOIN e praticamente a mesma do INNER JOIN, a mudança esta no foco,
+  a query de exemplo acima faz uma busca em uma base de dados ficticia, ela busca todos 
+  os valores da 'tabela1' que e a tabela que está a esquerda, e busca apenas os valores 
+  que possuem correspondencia na 'tabela2' que e a tabela que está a direita.
+
+  #### Exemplo
+  No exemplo a seguir, nos temos uma query que busca todos os valores da tabela 'artistas'
+  e busca apenas os valores correspondentes na tabela 'albums'.
+
+    SELECT * FROM artists AS a
+    LEFT JOIN albums AS al
+    ON a.artist_id = al.artist_id
+
+  Legal né? agora esta na hora de colocar a mão no teclado e praticar um pouco mais.
+
+  #### Exercícios de fixação
+  * Faça uma query que busque todos os dados da tabela 'users' e busque os dados correspondentes 
+    da tabela 'followers' pelo campo 'user_id'.  
+
   ### Entendendo o RIGTH JOIN
+  Agora você vai estudar o RIGTH JOIN
 
   ### Entendendo o FULL JOIN
 
@@ -353,3 +382,9 @@ Resolução exercicios de fiação um
 SELECT u.user, p.plan, p.value_plan FROM users AS u
 INNER JOIN plans AS p
 ON u.plan_id = p.plan_id;
+
+
+Resolução exercicios de fiação dois
+SELECT * FROM users AS u
+LEFT JOIN followers AS f
+ON u.user_id = f.artist;
