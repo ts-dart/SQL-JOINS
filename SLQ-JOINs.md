@@ -17,9 +17,6 @@ objetivo. Existem diferentes tipos de JOINs sendo eles os mais comuns:
 * LEFT JOIN: faz uma junção retornado os valores da tabela à direita e retornando
   os valores correspondentes a condição da tabela à esquerda.
 
-* FULL JOIN: faz uma junção retornando todos os valores entre diferentes tabelas
-  quando a relação entre os valores.
-
 Não se preocupe, pode parecer complicado mas é mais simples do que parece :stuck_out_tongue_winking_eye:, e no
 dia de hoje vamos estudar a fundo esse assunto para que você possa aperfeçoar seu conhecimento
 em SQL, vamos nessa? :rocket::rocket:
@@ -309,7 +306,8 @@ vamos com tudo para o conteudo de hoje. :books:
   O comando AS e um acrônimo para aliases, uma palavra em inglês que pode ser traduzida 
   para apelido em portugues, é exatamente isso que esse comando faz em nossa query, ele dá
   um apelido para a tabela, o comando AS renomeia temporariamente uma tabela, 
-  isso existe como uma forma organizar melhor a query e prevenir erros. Um código sem
+  isso existe como uma forma organizar melhor a query e prevenir erros. Copie e cole o codigo 
+  abaixo no seu Worckench e veja o que essa query te retorna! Um código sem
   o comando AS ficaria assim:
 
     SELECT artist, album, song FROM artists
@@ -388,7 +386,8 @@ vamos com tudo para o conteudo de hoje. :books:
   #### Exemplo
   No exemplo a seguir nos faremos a mesma query que fizemos no exemplo de LEFT JOIN,
   dessa vez usaremos RIGHT JOIN, faremos uma query que busca todos os valores da tabela 'albums'
-  e busca apenas os valores correspondentes na tabela 'artistas'. O código ficaria assim:
+  e busca apenas os valores correspondentes na tabela 'artistas'. Copie e cole o codigo abaixo no 
+  seu Worckench e veja o que essa query te retorna! O código ficaria assim:
 
     SELECT * FROM artists AS a
     RIGHT JOIN albums AS al
@@ -397,8 +396,12 @@ vamos com tudo para o conteudo de hoje. :books:
   #### Exercícios de fixação
   * Faça uma query que busque todos os dados da tabela 'followers' e busque os dados correspondentes 
     da tabela 'users' pelo campo 'user_id'. 
-    
+
 ## Vamos praticar!
+Agora vamos colocar a mão na massa :stuck_out_tongue_winking_eye:, chegou a hora de  
+você colocar em praticar todos os conteudos aprendidos no dia de hoje.
+
+<img src="https://media2.giphy.com/media/13HBDT4QSTpveU/200.webp?cid=ecf05e47tzetoapbkifyfkvikjflg7shnbpl6b2spwnv2g7o&rid=200.webp&ct=g" alt="">
 
 ## Recursos Adicionais (opcional)
 * [SQL JOIN(INNER, LEFT, RIGHT e FULL) combinando tabelas! por Trybe.](https://blog.betrybe.com/sql/sql-join/)
