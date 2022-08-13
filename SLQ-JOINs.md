@@ -1,7 +1,7 @@
 # JOINs o que são, o que comem, onde vivem?
 ## O que vamos aprender?
 Hoje você vai estudar um conteúdo muito importante para avançar no seu
-aprendizado de SQL, hoje aprenderemos sobre SQL JOINs, no dia de hoje veremos 
+aprendizado de SQL, hoje aprenderemos sobre SQL JOINs, no dia de hoje você vai estudar,
 alguns dos JOINs mais utilizados no dia dia de uma pessoa desenvolvedora, JOIN e 
 uma cláusula muitoimportante dentro da linguagem sql, essa cláusula é usada para operações
 cujo objetivo é juntar colunas de diferentes tabelas, possibilitando que vocè
