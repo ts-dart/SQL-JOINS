@@ -394,7 +394,8 @@ vamos com tudo para o conteudo de hoje. :books:
     ON a.artist_id = al.artist_id
 
   #### Exercícios de fixação
-  *
+  * Faça uma query que busque todos os dados da tabela 'followers' e busque os dados correspondentes 
+    da tabela 'users' pelo campo 'user_id'. 
 
   ### Entendendo o FULL JOIN
 
@@ -412,4 +413,9 @@ ON u.plan_id = p.plan_id;
 Resolução exercicios de fiação dois
 SELECT * FROM users AS u
 LEFT JOIN followers AS f
+ON u.user_id = f.artist;
+
+Resolução exercicios de fiação tres
+SELECT * FROM followers AS f
+LEFT JOIN users AS u
 ON u.user_id = f.artist;
