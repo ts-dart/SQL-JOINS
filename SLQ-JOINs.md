@@ -371,7 +371,7 @@ vamos com tudo para o conteudo de hoje. :books:
   Agora você vai estudar o RIGTH JOIN, o RIGTH JOIN faz exatamente a mesma coisa
   que o LEFT JOIN, a unica mudança e o foco ele busca todos os valores da tabela a direita
   e busca apenas os valores correspondentes da tabela a esquerda, ao contrario do que faz 
-  o LEFT JOIN.
+  o LEFT JOIN. Veja essa representação abaixo:
 
   <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/13/01/10/sql-7382703_960_720.jpg" alt="">
 
@@ -399,6 +399,13 @@ vamos com tudo para o conteudo de hoje. :books:
     da tabela 'users' pelo campo 'user_id'. 
 
   ### Entendendo o FULL JOIN
+  Agora você vai estudar o FULL JOIN, o metodo de junção FULL JOIN e mais ou menos a mesma coisa
+  que os metodos LEFT JOIN e RIGHT JOIN, novamente a diferença esta no foco, o FULL JOIN busca todos 
+  os valores em ambas tabelas, para os valores que não possuem correspondencia e retornado um NULL.
+  Veja essa representação abaixo:
+
+  ![Representação visual do FULL JOIN](https://cdn.pixabay.com/photo/2022/08/13/19/59/sql-7384369_960_720.jpg)
+
 
 ## Vamos praticar!
 
