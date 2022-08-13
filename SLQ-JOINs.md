@@ -372,7 +372,7 @@ vamos com tudo para o conteudo de hoje. :books:
   e busca apenas os valores correspondentes da tabela a esquerda, ao contrario do que faz 
   o LEFT JOIN.
 
-  <img src="https://cdn.pixabay.com/photo/2022/08/13/01/10/01-10-04-743_960_720.jpg" alt="">
+  <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/13/01/10/sql-7382703_960_720.jpg" alt="">
 
   #### Sintaxe
   Perceba a sintaxe do RIGTH JOIN e a mesma do LEFT JOIN:
