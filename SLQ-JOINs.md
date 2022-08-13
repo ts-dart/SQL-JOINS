@@ -398,7 +398,7 @@ vamos com tudo para o conteudo de hoje. :books:
     da tabela 'users' pelo campo 'user_id'. 
 
 ## Vamos praticar!
-Agora vamos colocar a mão na massa :stuck_out_tongue_winking_eye:, chegou a hora de você colocar em pratica 
+Agora vamos colocar a mão na massa :rocket::rocket:, chegou a hora de você colocar em pratica 
 todos os conteudos aprendidos no dia de hoje.
 
 <img src="https://media2.giphy.com/media/13HBDT4QSTpveU/200.webp?cid=ecf05e47tzetoapbkifyfkvikjflg7shnbpl6b2spwnv2g7o&rid=200.webp&ct=g" alt="">
