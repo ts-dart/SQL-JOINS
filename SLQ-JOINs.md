@@ -404,8 +404,7 @@ vamos com tudo para o conteudo de hoje. :books:
   os valores em ambas tabelas, para os valores que não possuem correspondencia e retornado um NULL.
   Veja essa representação abaixo:
 
-  ![Representação visual do FULL JOIN](https://cdn.pixabay.com/photo/2022/08/13/19/59/sql-7384369_960_720.jpg)
-
+  <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/13/19/59/sql-7384369_960_720.jpg" alt="">
 
 ## Vamos praticar!
 
