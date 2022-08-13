@@ -8,19 +8,16 @@ escreva querys mais sofisticadas e complexas que atendam melhor a um determinado
 objetivo. Existem diferentes tipos de JOINs sendo eles os mais comuns:
 
 * INNER JOIN: faz uma junção retornando valores de diferentes tabelas 
-  correspondente a condição
+  correspondente a condição.
 
 * RIGHT JOIN: faz uma junção retornado os valores da tabela à esquerda e retornando
-  os valores correspondentes a condição da tabela à direita
+  os valores correspondentes a condição da tabela à direita.
 
 * LEFT JOIN: faz uma junção retornado os valores da tabela à direita e retornando
-  os valores correspondentes a condição da tabela à esquerda
+  os valores correspondentes a condição da tabela à esquerda.
 
 * FULL JOIN: faz uma junção retornando todos os valores entre diferentes tabelas
-  quando a relação entre os valores
-
-* CROSS JOIN: faz uma junção e retorna para cada linha na tabela a direita 
-  todas as linhas na tabela a esquerda ou vice-versa
+  quando a relação entre os valores.
 
 Não se preocupe, pode parecer complicado mas é mais simples do que parece :stuck_out_tongue_winking_eye:, e no
 dia de hoje vamos estudar a fundo esse assunto para que você possa aperfeçoar seu conhecimento
@@ -290,14 +287,16 @@ vamos com tudo para o conteudo de hoje. :books:
   #### Exemplo 
   No exemplo a seguir nós vamos usar a base de dados criado anteriormente, nós vamos
   fazer uma query, que vai buscar os nomes dos artistas na tabela artistas e vai buscar
-  também o nome dos álbuns que esse artista possui, na tabela álbuns. O código ficaria assim:
+  também o nome dos álbuns que esse artista possui, na tabela álbuns. Copie e cole o codigo abaixo no 
+  seu Worckench e veja o que essa query te retorna! O código ficaria assim:
 
     SELECT a.artist, al.album FROM artists AS a
     INNER JOIN albums AS al
     ON a.artist_id = al.artist_id
 
   Também é possível acrescentar um outro join em nossa query, para buscarmos também
-  as músicas pertencentes a cada álbum. O código ficaria assim:
+  as músicas pertencentes a cada álbum. Copie e cole o codigo abaixo no 
+  seu Worckench e veja o que essa query te retorna! O código ficaria assim:
 
     SELECT a.artist, al.album, s.song FROM artists AS a
     INNER JOIN albums AS al
@@ -354,7 +353,8 @@ vamos com tudo para o conteudo de hoje. :books:
 
   #### Exemplo
   No exemplo a seguir, nos temos uma query que busca todos os valores da tabela 'artistas'
-  e busca apenas os valores correspondentes na tabela 'albums'.
+  e busca apenas os valores correspondentes na tabela 'albums'. Copie e cole o codigo abaixo no 
+  seu Worckench e veja o que essa query te retorna! O código ficaria assim:
 
     SELECT * FROM artists AS a
     LEFT JOIN albums AS al
@@ -367,11 +367,36 @@ vamos com tudo para o conteudo de hoje. :books:
     da tabela 'followers' pelo campo 'user_id'.  
 
   ### Entendendo o RIGTH JOIN
-  Agora você vai estudar o RIGTH JOIN
+  Agora você vai estudar o RIGTH JOIN, o RIGTH JOIN faz exatamente a mesma coisa
+  que o LEFT JOIN, a unica mudança e o foco ele busca todos os valores da tabela a direita
+  e busca apenas os valores correspondentes da tabela a esquerda, ao contrario do que faz 
+  o LEFT JOIN.
+
+  <img src="https://cdn.pixabay.com/photo/2022/08/13/01/10/01-10-04-743_960_720.jpg" alt="">
+
+  #### Sintaxe
+  Perceba a sintaxe do RIGTH JOIN e a mesma do LEFT JOIN:
+  
+    SELECT * FROM tabela1 AS t1
+    LEFT JOIN tabela2 AS t2
+    ON t1.coluna = t2.coluna;
+
+  Na query acima, estamos buscando todos os valores da 'tabela1' que e a tabela a direita,
+  e estamos buscando apenas os valores correspondentes da 'tabela2' que e a tabela a esquerda.
+
+  #### Exemplo
+  No exemplo a seguir nos faremos a mesma query que fizemos no exemplo de LEFT JOIN,
+  dessa vez usaremos RIGHT JOIN, faremos uma query que busca todos os valores da tabela 'albums'
+  e busca apenas os valores correspondentes na tabela 'artistas'. O código ficaria assim:
+
+    SELECT * FROM artists AS a
+    RIGHT JOIN albums AS al
+    ON a.artist_id = al.artist_id
+
+  #### Exercícios de fixação
+  *
 
   ### Entendendo o FULL JOIN
-
-  ### Entendendo o CROSS JOIN
 
 ## Vamos praticar!
 
