@@ -4,6 +4,7 @@
 * Faça uma query que busque os nomes dos usuários na tabela 'users' e busque também o plano de cada usuário e o valor do plano de cada usuário.
 
   Resolução:
+  
       SELECT u.user, p.plan, p.value_plan FROM users AS u
       INNER JOIN plans AS p
       ON u.plan_id = p.plan_id;
