@@ -66,3 +66,15 @@
       ON f.film_id = fa.actor_id
       INNER JOIN actor AS a
       ON fa.actor_id = a.actor_id
+
+### Resolução de exercicios bônus
+* Exercicio bônus: faça uma query que busque o nome de todos os filmes na tabela film e a categoria que cada filme na tabela 
+category 
+
+  Resolução:
+      SELECT f.title, c.name FROM film AS f
+      INNER JOIN film_category AS fc
+      ON f.film_id = fc.film_id
+      INNER JOIN category AS c
+      ON fc.category_id = c.category_id;
+

@@ -419,6 +419,9 @@ e busque tambem os nomes de filmes na tabela film que estejam nesse idioma.
 * Exercicio 4: faça uma query e utilize o RIGHT JOIN, busque todos os campos 'title' na tabela film e busque o primeiro nome de atores que 
 atuaram nesses filmes na tabela actor.
 
+* Exercicio bônus: faça uma query que busque o nome de todos os filmes na tabela film e a categoria que cada filme na tabela 
+category 
+
 ## Recursos Adicionais (opcional)
 * [SQL JOIN(INNER, LEFT, RIGHT e FULL) combinando tabelas! por Trybe.](https://blog.betrybe.com/sql/sql-join/)
 * [SQL JOIN: Entenda como funciona o retorno dos dados, por DevMedia.](https://www.devmedia.com.br/sql-join-entenda-como-funciona-o-retorno-dos-dados/31006)
