@@ -39,12 +39,13 @@
 ### Resolução exercicios agora a pratica 2
 * Exercicio 2: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city, busque localizações refererntes a essas cidades na tabela address e busque tambem os paises em que essas cidades estão.
 
-Resolução:
-    SELECT c.city, a.location, co.country FROM address AS a
-    INNER JOIN city AS c
-    ON a.city_id = c.city_id
-    INNER JOIN country AS co
-    ON c.country_id = co.country_id;
+  Resolução:
+   
+      SELECT c.city, a.location, co.country FROM address AS a
+      INNER JOIN city AS c
+      ON a.city_id = c.city_id
+      INNER JOIN country AS co
+      ON c.country_id = co.country_id;
 
 ### Resolução exercicios agora a pratica 3
 * Exercicio 3: faça uma query e utilize o LEFT JOIN, busque todos os valores em 'language_id' e 'name' na tabela language e busque tambem os nomes de filmes na tabela film que estejam nesse idioma.
