@@ -4,9 +4,9 @@
 * Faça uma query que busque os nomes dos usuários na tabela 'users' e busque também o plano de cada usuário e o valor do plano de cada usuário.
 
 Resolução:
-    SELECT u.user, p.plan, p.value_plan FROM users AS u
-    INNER JOIN plans AS p
-    ON u.plan_id = p.plan_id;
+      SELECT u.user, p.plan, p.value_plan FROM users AS u
+      INNER JOIN plans AS p
+      ON u.plan_id = p.plan_id;
 
 ### Resolução exercicios de fixação 2
 * Faça uma query que busque todos os dados da tabela 'users' e busque os dados correspondentes da tabela 'followers' pelo campo 'user_id'.
