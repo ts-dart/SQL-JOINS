@@ -27,6 +27,15 @@
       LEFT JOIN users AS u
       ON u.user_id = f.artist;
 
+### Resolução exercicios de fixação 4
+* Faça uma query utilizando o SELF JOIN, busque na tabela albums campos album_id e artist_id que possuem correspondenica.
+
+  Resolução:
+
+    SELECT alid.album_id, arid.artist_id FROM albums AS alid
+    INNER JOIN albums AS arid
+    ON alid.album_id = arid.artist_id;
+
 ### Resolução exercicios agora a pratica 1
 * Exercício 1: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city e busque localizações referentes a essas cidades na
 tabela address.
@@ -70,6 +79,15 @@ category.
       ON f.film_id = fa.actor_id
       INNER JOIN actor AS a
       ON fa.actor_id = a.actor_id
+
+### Resolução exercicios agora a pratica 5
+* Exercício 5: Faça uma query utilizando o SELF JOIN, busque na tabela city campos city_id e country_id que possuem correspondenica.
+
+    Resolução:
+
+      SELECT cii.city_id, coi.country_id FROM city AS cii
+      INNER JOIN city AS coi
+      ON cii.city_id = coi.country_id
 
 ### Resolução de exercicios bônus
 * Exercicio bônus: faça uma query que busque o nome de todos os filmes na tabela film e a categoria que cada filme na tabela 

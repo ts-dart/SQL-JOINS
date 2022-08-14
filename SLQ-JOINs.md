@@ -323,6 +323,9 @@ vamos com tudo para o conteudo de hoje. :books:
   Esse erro ocorre porque na última linha, no comando ON ele encontra duas vezes 
   'album_id' e não consegue diferenciar de qual tabela eles estão vindo.
 
+  #### Utilizando o INNER JOIN sem o INNER!
+  DESENVOLVER
+
   #### Exercícios de fixação
   * Faça uma query que busque os nomes dos usuários na tabela 'users' e busque também
   o plano de cada usuário e o valor do plano de cada usuário.
@@ -397,6 +400,23 @@ vamos com tudo para o conteudo de hoje. :books:
   * Faça uma query que busque todos os dados da tabela 'followers' e busque os dados correspondentes 
     da tabela 'users' pelo campo 'user_id'. 
 
+  ### Entendendo o SELF JOIN
+  Agora você vai estudar o SELF JOIN, o SELF JOIN não e um metodo em si, não existe um tipo de JOIN diferente
+  chamado SELF JOIN, O SELF JOIN e apenas um caso de uso, que se da quando e feita uma junção de uma tabela
+  com ela mesma, e possivel realizar um SELF JOIN utilizando qualquer um dos JOINs vistos anteriormente,
+  o SELF JOIN e perfeito para ser utilizado em situações onde você não precisar consultar mais de uma tabela.
+
+  #### Sintaxe
+  Veja, estamos utilizando o INNER JOIN, perceba que a sintaxe e a mesma usada em um INNER JOIN comum a unica
+  diferença e que após o comando JOIN, nos buscamos dados da mesma tabela.
+
+    SELECT * FROM tabela1 AS c1
+    INNER JOIN tabela1 AS c2
+    ON c1.coluna = c2.coluna;
+
+  #### Exercícios de fixação
+  * Faça uma query utilizando o SELF JOIN, busque na tabela albums campos album_id e artist_id que possuem correspondenica.
+
 ## Vamos praticar!
 Agora vamos colocar a mão na massa :rocket::rocket:, chegou a hora de você colocar em prática 
 todos os conteúdos aprendidos no dia de hoje.
@@ -404,7 +424,7 @@ todos os conteúdos aprendidos no dia de hoje.
 <img src="https://media2.giphy.com/media/13HBDT4QSTpveU/200.webp?cid=ecf05e47tzetoapbkifyfkvikjflg7shnbpl6b2spwnv2g7o&rid=200.webp&ct=g" alt="">
 
 Para os exercícios a seguir, nós vamos utilizar a base de dados Sakila, para isso click no link a seguir
-Para fazer o download do arquivo sql, utilize esse arquivo para criar uma base de dados a partir dele. [CLIQUE AQUI](https://docs.google.com/uc?export=download&id=1W0ASx1b20AV57dm2wmyFzx4oDFDsgKI2)
+Para fazer o download do arquivo sql, utilize esse arquivo para criar uma base de dados a partir dele, Utilize o Workbench. [CLIQUE AQUI](https://docs.google.com/uc?export=download&id=1W0ASx1b20AV57dm2wmyFzx4oDFDsgKI2)
 
 * Exercício 1: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city e busque localizações referentes a essas cidades na
 tabela address. 
@@ -417,6 +437,8 @@ e busque também os nomes de filmes na tabela filme que estejam nesse idioma.
 
 * Exercício 4: faça uma query e utilize o RIGHT JOIN, busque todos os campos 'title' na tabela film e busque o primeiro nome de atores que 
 atuaram nesses filmes na tabela actor.
+
+* Exercício 5: Faça uma query utilizando o SELF JOIN, busque na tabela city campos city_id e country_id que possuem correspondenica.
 
 * Exercício bônus: faça uma query que busque o nome de todos os filmes na tabela film e a categoria que cada filme na tabela 
 category.
