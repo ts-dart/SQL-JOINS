@@ -10,7 +10,7 @@
       ON u.plan_id = p.plan_id;
 
 ### Resolução exercicios de fixação 2
-* Faça uma query que busque todos os dados da tabela 'users' e busque os dados correspondentes da tabela 'followers' pelo campo 'user_id'.
+* Faça uma query que busque todos os dados da tabela 'users' e busque os dados correspondentes da tabela 'followers' pelo campo 'user_id'. 
 
   Resolução:
 
@@ -28,7 +28,8 @@
       ON u.user_id = f.artist;
 
 ### Resolução exercicios agora a pratica 1
-* Exercicio 1: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city e busque localizações refererntes a essas cidades na tabela  address.
+* Exercício 1: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city e busque localizações referentes a essas cidades na
+tabela address.
 
   Resolução:
 
@@ -37,7 +38,8 @@
       ON a.city_id = c.city_id;
 
 ### Resolução exercicios agora a pratica 2
-* Exercicio 2: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city, busque localizações refererntes a essas cidades na tabela address e busque tambem os paises em que essas cidades estão.
+* Exercício 2: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city, busque localizações referentes a essas cidades na
+tabela address e busque também os países em que essas cidades estão.
 
   Resolução:
    
@@ -48,7 +50,8 @@
       ON c.country_id = co.country_id;
 
 ### Resolução exercicios agora a pratica 3
-* Exercicio 3: faça uma query e utilize o LEFT JOIN, busque todos os valores em 'language_id' e 'name' na tabela language e busque tambem os nomes de filmes na tabela film que estejam nesse idioma.
+* Exercício 3: faça uma query e utilize o LEFT JOIN, busque todos os valores em 'language_id' e 'name' na tabela language
+e busque também os nomes de filmes na tabela filme que estejam nesse idioma.
 
   Resolução:
 
@@ -57,7 +60,8 @@
       ON l.language_id = f.language_id;
 
 ### Resolução exercicios agora a pratica 4
-* Exercicio 4: faça uma query e utilize o RIGHT JOIN, busque todos os campos 'title' na tabela film e busque o primeiro nome de atores que atuaram nesses filmes na tabela actor.
+* Exercício bônus: faça uma query que busque o nome de todos os filmes na tabela film e a categoria que cada filme na tabela 
+category.
 
   Resolução:
 

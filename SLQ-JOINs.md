@@ -302,7 +302,7 @@ vamos com tudo para o conteudo de hoje. :books:
     INNER JOIN songs AS s
     ON al.album_id = s.album_id;
 
-  #### O que e esse AS no codigo?
+  #### O que e esse AS na query?
   O comando AS e um acrônimo para aliases, uma palavra em inglês que pode ser traduzida 
   para apelido em portugues, é exatamente isso que esse comando faz em nossa query, ele dá
   um apelido para a tabela, o comando AS renomeia temporariamente uma tabela, 
@@ -330,65 +330,64 @@ vamos com tudo para o conteudo de hoje. :books:
   ### Entendendo o LEFT JOIN
   Outro método muito utilizado para fazer a união entre tabelas e o método LEFT JOIN,
   o LEFT JOIN não é muito diferente do INNER JOIN, enquanto o INNER JOIN busca apenas
-  os valores correspondentes, o LEFT JOIN têm seu foco na tabela a esquerda, retornando
+  os valores correspondentes, o LEFT JOIN têm seu foco na tabela à esquerda, retornando
   todos os dados presentes na tabela a esquerda, e retornando da tabela
   a direita apenas os dados que possuem correspondência, caso não exista dado correspondente
   e retornado um NULL. Veja essa representação abaixo:
 
-
   <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/12/22/51/sql-7382584_960_720.jpg" alt="">
 
   #### Sintaxe
-  Agora nós veremos a sintaxe do LEFT JOIN, analise a query a seguir e perçeba as
-  semelhanas que existem com o INNER JOIN
+  Agora nós veremos a sintaxe do LEFT JOIN, análise a query a seguir e perceba as
+  semelhanças que existem com o INNER JOIN.
 
     SELECT * FROM tabela1 AS t1
     LEFT JOIN tabela2 AS t2
     ON t1.coluna = t2.coluna;
 
-  A sintaxe do LEFT JOIN e praticamente a mesma do INNER JOIN, a mudança esta no foco,
-  a query de exemplo acima faz uma busca em uma base de dados ficticia, ela busca todos 
-  os valores da 'tabela1' que e a tabela que está a esquerda, e busca apenas os valores 
-  que possuem correspondencia na 'tabela2' que e a tabela que está a direita.
+  A sintaxe do LEFT JOIN e praticamente a mesma do INNER JOIN, a mudança está no foco,
+  a query de exemplo acima faz uma busca em uma base de dados fictícia, ela busca todos 
+  os valores da 'tabela 1' que e a tabela que está a esquerda, e busca apenas os valores 
+  que possuem correspondência na 'tabela 2' que é a tabela que está à direita.
 
   #### Exemplo
-  No exemplo a seguir, nos temos uma query que busca todos os valores da tabela 'artistas'
-  e busca apenas os valores correspondentes na tabela 'albums'. Copie e cole o codigo abaixo no 
-  seu Worckench e veja o que essa query te retorna! O código ficaria assim:
+  No exemplo a seguir, nós temos uma query que busca todos os valores da tabela 'artistas'
+  e busca apenas os valores correspondentes na tabela 'albums'. Copie e cole o código abaixo no 
+  seu Workbench e veja o que essa query te retorna! O código ficaria assim:
 
     SELECT * FROM artists AS a
     LEFT JOIN albums AS al
     ON a.artist_id = al.artist_id
 
-  Legal né? agora esta na hora de colocar a mão no teclado e praticar um pouco mais.
+  Legal né :smiley:? Agora está na hora de colocar a mão no teclado e praticar um pouco mais.
 
   #### Exercícios de fixação
   * Faça uma query que busque todos os dados da tabela 'users' e busque os dados correspondentes 
     da tabela 'followers' pelo campo 'user_id'.  
 
   ### Entendendo o RIGTH JOIN
-  Agora você vai estudar o RIGTH JOIN, o RIGTH JOIN faz exatamente a mesma coisa
-  que o LEFT JOIN, a unica mudança e o foco ele busca todos os valores da tabela a direita
-  e busca apenas os valores correspondentes da tabela a esquerda, ao contrario do que faz 
+  Agora você vai estudar o RIGHT JOIN, ou RIGHT JOIN faz exatamente a mesma coisa
+  que o LEFT JOIN, a única mudança é o foco ele busca todos os valores da tabela à direita
+  e busca apenas os valores correspondentes da tabela à esquerda, ao contrário do que faz 
   o LEFT JOIN. Veja essa representação abaixo:
 
   <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/13/01/10/sql-7382703_960_720.jpg" alt="">
 
   #### Sintaxe
-  Perceba, a sintaxe do RIGTH JOIN e a mesma do LEFT JOIN:
+  Perceba, a sintaxe do RIGHT JOIN e a mesma do LEFT JOIN:
   
     SELECT * FROM tabela1 AS t1
     LEFT JOIN tabela2 AS t2
     ON t1.coluna = t2.coluna;
 
-  Na query acima, estamos buscando todos os valores da 'tabela1' que e a tabela a direita,
-  e estamos buscando apenas os valores correspondentes da 'tabela2' que e a tabela a esquerda.
+  Na query acima, estamos buscando todos os valores da 'tabela 1' que e a tabela a direita,
+  e estamos buscando apenas os valores correspondentes da 'tabela 2' que é a tabela à esquerda.
 
   #### Exemplo
-  No exemplo a seguir nos faremos a mesma query que fizemos no exemplo de LEFT JOIN,
+  No exemplo a seguir nós faremos a mesma query que fizemos no exemplo de LEFT JOIN,
   dessa vez usaremos RIGHT JOIN, faremos uma query que busca todos os valores da tabela 'albums'
-  e busca apenas os valores correspondentes na tabela 'artistas'. Copie e cole o codigo abaixo no 
-  seu Worckench e veja o que essa query te retorna! O código ficaria assim:
+  e busca apenas os valores correspondentes na tabela 'artistas'. Copie e cole o código abaixo no 
+  seu Workbench e veja o que essa query te retorna! O código ficaria assim:
 
     SELECT * FROM artists AS a
     RIGHT JOIN albums AS al
@@ -399,28 +398,28 @@ vamos com tudo para o conteudo de hoje. :books:
     da tabela 'users' pelo campo 'user_id'. 
 
 ## Vamos praticar!
-Agora vamos colocar a mão na massa :rocket::rocket:, chegou a hora de você colocar em pratica 
-todos os conteudos aprendidos no dia de hoje.
+Agora vamos colocar a mão na massa :rocket::rocket:, chegou a hora de você colocar em prática 
+todos os conteúdos aprendidos no dia de hoje.
 
 <img src="https://media2.giphy.com/media/13HBDT4QSTpveU/200.webp?cid=ecf05e47tzetoapbkifyfkvikjflg7shnbpl6b2spwnv2g7o&rid=200.webp&ct=g" alt="">
 
-Para os exercicios a seguir, nos vamos utilizar a base de dados Sakila, para isso click no link a seguir
-para fazer o download do arquivo sql, utilize esse arquivo para criar uma base de dados a partir dele. [CLIQUE AQUI](https://docs.google.com/uc?export=download&id=1W0ASx1b20AV57dm2wmyFzx4oDFDsgKI2)
+Para os exercícios a seguir, nós vamos utilizar a base de dados Sakila, para isso click no link a seguir
+Para fazer o download do arquivo sql, utilize esse arquivo para criar uma base de dados a partir dele. [CLIQUE AQUI](https://docs.google.com/uc?export=download&id=1W0ASx1b20AV57dm2wmyFzx4oDFDsgKI2)
 
-* Exercicio 1: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city e busque localizações refererntes a essas cidades na
+* Exercício 1: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city e busque localizações referentes a essas cidades na
 tabela address. 
 
-* Exercicio 2: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city, busque localizações refererntes a essas cidades na
-tabela address e busque tambem os paises em que essas cidades estão. 
+* Exercício 2: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city, busque localizações referentes a essas cidades na
+tabela address e busque também os países em que essas cidades estão. 
 
-* Exercicio 3: faça uma query e utilize o LEFT JOIN, busque todos os valores em 'language_id' e 'name' na tabela language
-e busque tambem os nomes de filmes na tabela film que estejam nesse idioma.
+* Exercício 3: faça uma query e utilize o LEFT JOIN, busque todos os valores em 'language_id' e 'name' na tabela language
+e busque também os nomes de filmes na tabela filme que estejam nesse idioma.
 
-* Exercicio 4: faça uma query e utilize o RIGHT JOIN, busque todos os campos 'title' na tabela film e busque o primeiro nome de atores que 
+* Exercício 4: faça uma query e utilize o RIGHT JOIN, busque todos os campos 'title' na tabela film e busque o primeiro nome de atores que 
 atuaram nesses filmes na tabela actor.
 
-* Exercicio bônus: faça uma query que busque o nome de todos os filmes na tabela film e a categoria que cada filme na tabela 
-category 
+* Exercício bônus: faça uma query que busque o nome de todos os filmes na tabela film e a categoria que cada filme na tabela 
+category.
 
 ## Recursos Adicionais (opcional)
 * [SQL JOIN(INNER, LEFT, RIGHT e FULL) combinando tabelas! por Trybe.](https://blog.betrybe.com/sql/sql-join/)
