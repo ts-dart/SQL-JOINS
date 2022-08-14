@@ -72,6 +72,7 @@
 category 
 
   Resolução:
+  
       SELECT f.title, c.name FROM film AS f
       INNER JOIN film_category AS fc
       ON f.film_id = fc.film_id
