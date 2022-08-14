@@ -24,3 +24,15 @@ INNER JOIN city AS c
 ON a.city_id = c.city_id
 INNER JOIN country AS co
 ON c.country_id = co.country_id;
+
+AGORA A PRATICA EXERCICIO 3:
+SELECT l.language_id, l.name, f.title FROM language AS l
+LEFT JOIN film AS f
+ON l.language_id = f.language_id;
+
+AGORA A PRATICA EXERCICIO 4:
+SELECT f.title, a.first_name FROM film AS f
+RIGHT JOIN film_actor AS fa
+ON f.film_id = fa.actor_id
+INNER JOIN actor AS a
+ON fa.actor_id = a.actor_id

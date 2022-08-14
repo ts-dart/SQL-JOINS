@@ -328,12 +328,13 @@ vamos com tudo para o conteudo de hoje. :books:
   o plano de cada usuário e o valor do plano de cada usuário.
 
   ### Entendendo o LEFT JOIN
-  Outro metodo muito utilizado para fazer a união entre tabelas e o metodo LEFT JOIN,
-  o LEFT JOIN não e muito difetente do INNER JOIN, enquanto o INNER JOIN busca apenas
-  os valores correspondentes, o LEFT JOIN tem seu foco na tabela
-  a esquerda, retornando todos os dados presentes na tabela a esquerda, e retornando da tabela 
-  a direita apenas os dados que possuem correspondencia, caso não exista dado correspondente
+  Outro método muito utilizado para fazer a união entre tabelas e o método LEFT JOIN,
+  o LEFT JOIN não é muito diferente do INNER JOIN, enquanto o INNER JOIN busca apenas
+  os valores correspondentes, o LEFT JOIN têm seu foco na tabela a esquerda, retornando
+  todos os dados presentes na tabela a esquerda, e retornando da tabela
+  a direita apenas os dados que possuem correspondência, caso não exista dado correspondente
   e retornado um NULL. Veja essa representação abaixo:
+
 
   <img height="210px" width="320px" src="https://cdn.pixabay.com/photo/2022/08/12/22/51/sql-7382584_960_720.jpg" alt="">
 
@@ -411,6 +412,12 @@ tabela address.
 
 * Exercicio 2: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city, busque localizações refererntes a essas cidades na
 tabela address e busque tambem os paises em que essas cidades estão. 
+
+* Exercicio 3: faça uma query e utilize o LEFT JOIN, busque todos os valores em 'language_id' e 'name' na tabela language
+e busque tambem os nomes de filmes na tabela film que estejam nesse idioma.
+
+* Exercicio 4: faça uma query e utilize o RIGHT JOIN, busque todos os campos 'title' na tabela film e busque o primeiro nome de atores que 
+atuaram nesses filmes na tabela actor.
 
 ## Recursos Adicionais (opcional)
 * [SQL JOIN(INNER, LEFT, RIGHT e FULL) combinando tabelas! por Trybe.](https://blog.betrybe.com/sql/sql-join/)
