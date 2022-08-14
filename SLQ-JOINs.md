@@ -324,7 +324,14 @@ vamos com tudo para o conteudo de hoje. :books:
   'album_id' e não consegue diferenciar de qual tabela eles estão vindo.
 
   #### Utilizando o INNER JOIN sem o INNER!
-  DESENVOLVER
+  Uma curiosida interessante e que tambem e possivel fazer o INNER JOIN usando apenas 
+  o comando JOIN, isso acontece  
+
+    SELECT a.artist, al.album, s.song FROM artists AS a
+    JOIN albums AS al
+    ON a.artist_id = al.artist_id
+    JOIN songs AS s
+    ON al.album_id = s.album_id;
 
   #### Exercícios de fixação
   * Faça uma query que busque os nomes dos usuários na tabela 'users' e busque também
