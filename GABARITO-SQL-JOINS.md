@@ -33,8 +33,8 @@
   ON l.language_id = f.language_id;
 
 ### Resolução exercicios agora a pratica 4
-  SELECT f.title, a.first_name FROM film AS f
-  RIGHT JOIN film_actor AS fa
-  ON f.film_id = fa.actor_id
-  INNER JOIN actor AS a
-  ON fa.actor_id = a.actor_id
+    SELECT f.title, a.first_name FROM film AS f
+    RIGHT JOIN film_actor AS fa
+    ON f.film_id = fa.actor_id
+    INNER JOIN actor AS a
+    ON fa.actor_id = a.actor_id
