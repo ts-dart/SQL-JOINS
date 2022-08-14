@@ -4,7 +4,7 @@
 * Faça uma query que busque os nomes dos usuários na tabela 'users' e busque também o plano de cada usuário e o valor do plano de cada usuário.
 
   Resolução:
-  
+
       SELECT u.user, p.plan, p.value_plan FROM users AS u
       INNER JOIN plans AS p
       ON u.plan_id = p.plan_id;
@@ -12,26 +12,29 @@
 ### Resolução exercicios de fixação 2
 * Faça uma query que busque todos os dados da tabela 'users' e busque os dados correspondentes da tabela 'followers' pelo campo 'user_id'.
 
-Resolução:
-    SELECT * FROM users AS u
-    LEFT JOIN followers AS f
-    ON u.user_id = f.artist;
+  Resolução:
+
+      SELECT * FROM users AS u
+      LEFT JOIN followers AS f
+      ON u.user_id = f.artist;
 
 ### Resolução exercicios de fixação 3
 * Faça uma query que busque todos os dados da tabela 'followers' e busque os dados correspondentes da tabela 'users' pelo campo 'user_id'.
 
-Resolução:
-    SELECT * FROM followers AS f
-    LEFT JOIN users AS u
-    ON u.user_id = f.artist;
+  Resolução:
+
+      SELECT * FROM followers AS f
+      LEFT JOIN users AS u
+      ON u.user_id = f.artist;
 
 ### Resolução exercicios agora a pratica 1
 * Exercicio 1: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city e busque localizações refererntes a essas cidades na tabela  address.
 
-Resolução:
-    SELECT c.city, a.location FROM address AS a
-    INNER JOIN city AS c
-    ON a.city_id = c.city_id;
+  Resolução:
+
+      SELECT c.city, a.location FROM address AS a
+      INNER JOIN city AS c
+      ON a.city_id = c.city_id;
 
 ### Resolução exercicios agora a pratica 2
 * Exercicio 2: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city, busque localizações refererntes a essas cidades na tabela address e busque tambem os paises em que essas cidades estão.
@@ -46,17 +49,19 @@ Resolução:
 ### Resolução exercicios agora a pratica 3
 * Exercicio 3: faça uma query e utilize o LEFT JOIN, busque todos os valores em 'language_id' e 'name' na tabela language e busque tambem os nomes de filmes na tabela film que estejam nesse idioma.
 
-Resolução:
-    SELECT l.language_id, l.name, f.title FROM language AS l
-    LEFT JOIN film AS f
-    ON l.language_id = f.language_id;
+  Resolução:
+
+      SELECT l.language_id, l.name, f.title FROM language AS l
+      LEFT JOIN film AS f
+      ON l.language_id = f.language_id;
 
 ### Resolução exercicios agora a pratica 4
 * Exercicio 4: faça uma query e utilize o RIGHT JOIN, busque todos os campos 'title' na tabela film e busque o primeiro nome de atores que atuaram nesses filmes na tabela actor.
 
-Resolução:
-    SELECT f.title, a.first_name FROM film AS f
-    RIGHT JOIN film_actor AS fa
-    ON f.film_id = fa.actor_id
-    INNER JOIN actor AS a
-    ON fa.actor_id = a.actor_id
+  Resolução:
+
+      SELECT f.title, a.first_name FROM film AS f
+      RIGHT JOIN film_actor AS fa
+      ON f.film_id = fa.actor_id
+      INNER JOIN actor AS a
+      ON fa.actor_id = a.actor_id
