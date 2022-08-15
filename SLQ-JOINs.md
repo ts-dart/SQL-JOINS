@@ -325,7 +325,8 @@ vamos com tudo para o conteudo de hoje. :books:
 
   #### Utilizando o INNER JOIN sem o INNER!
   Uma curiosida interessante e que tambem e possivel fazer o INNER JOIN usando apenas 
-  o comando JOIN, isso acontece  
+  o comando JOIN, isso acontece por que por padrão o JOIN do SQL e um INNER JOIN. 
+  O código utilizando apenas o comando JOIN  ficaria assim:  
 
     SELECT a.artist, al.album, s.song FROM artists AS a
     JOIN albums AS al
@@ -408,21 +409,20 @@ vamos com tudo para o conteudo de hoje. :books:
     da tabela 'users' pelo campo 'user_id'. 
 
   ### Entendendo o SELF JOIN
-  Agora você vai estudar o SELF JOIN, o SELF JOIN não e um metodo em si, não existe um tipo de JOIN diferente
-  chamado SELF JOIN, O SELF JOIN e apenas um caso de uso, que se da quando e feita uma junção de uma tabela
-  com ela mesma, e possivel realizar um SELF JOIN utilizando qualquer um dos JOINs vistos anteriormente,
-  o SELF JOIN e perfeito para ser utilizado em situações onde você não precisar consultar mais de uma tabela.
+  Agora você vai estudar o SELF JOIN, o SELF JOIN não é um método em si, não existe um tipo de JOIN diferente
+  chamado SELF JOIN, O SELF JOIN e apenas um caso de uso, que se dá quando é feita uma junção de uma tabela
+  com ela mesma, é possível realizar um SELF JOIN utilizando qualquer um dos JOINs vistos anteriormente,
+  o SELF JOIN é perfeito para ser utilizado em situações onde você não precisar consultar mais de uma tabela.
 
   #### Sintaxe
-  Veja, estamos utilizando o INNER JOIN, perceba que a sintaxe e a mesma usada em um INNER JOIN comum a unica
-  diferença e que após o comando JOIN, nos buscamos dados da mesma tabela.
+  Veja, estamos utilizando o INNER JOIN, perceba que a sintaxe é a mesma usada em um INNER JOIN comum a única diferença é que após o comando JOIN, nós buscamos dados da mesma tabela.
 
     SELECT * FROM tabela1 AS c1
     INNER JOIN tabela1 AS c2
     ON c1.coluna = c2.coluna;
 
   #### Exercícios de fixação
-  * Faça uma query utilizando o SELF JOIN, busque na tabela albums campos album_id e artist_id que possuem correspondenica.
+  * Faça uma query utilizando o SELF JOIN, busque na tabela albums campos album_id e artist_id que possuem correspondência.
 
 ## Vamos praticar!
 Agora vamos colocar a mão na massa :rocket::rocket:, chegou a hora de você colocar em prática 
@@ -445,12 +445,16 @@ e busque também os nomes de filmes na tabela filme que estejam nesse idioma.
 * Exercício 4: faça uma query e utilize o RIGHT JOIN, busque todos os campos 'title' na tabela film e busque o primeiro nome de atores que 
 atuaram nesses filmes na tabela actor.
 
-* Exercício 5: Faça uma query utilizando o SELF JOIN, busque na tabela city campos city_id e country_id que possuem correspondenica.
+* Exercício 5: Faça uma query utilizando o SELF JOIN, busque na tabela city campos city_id e country_id que possuem correspondência.
+
+* Exercício 6: Faça uma query que busque todos os campos 'first_name' da tabela staff e apenas os campos 'first_name' correspondentes da 
+tabela actor.
 
 * Exercício bônus: faça uma query que busque o nome de todos os filmes na tabela film e a categoria que cada filme na tabela 
 category.
 
 ## Recursos Adicionais (opcional)
-* [SQL JOIN(INNER, LEFT, RIGHT e FULL) combinando tabelas! por Trybe.](https://blog.betrybe.com/sql/sql-join/)
-* [SQL JOIN: Entenda como funciona o retorno dos dados, por DevMedia.](https://www.devmedia.com.br/sql-join-entenda-como-funciona-o-retorno-dos-dados/31006)
-* [SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS, por Alura.](https://www.alura.com.br/artigos/join-em-sql)
+* [SQL JOIN(INNER, LEFT, RIGHT e FULL) combinando tabelas!. Por Trybe.](https://blog.betrybe.com/sql/sql-join/)
+* [SQL JOIN: Entenda como funciona o retorno dos dados. Por DevMedia.](https://www.devmedia.com.br/sql-join-entenda-como-funciona-o-retorno-dos-dados/31006)
+* [SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS. Por Alura.](https://www.alura.com.br/artigos/join-em-sql)
+* [Diferença entre INNER JOIN e OUTER JOIN | Tipos de JOINS em SQL | SQL para Análise de Dados EP.8. Pelo canal do youtube Programação Dinâmica](https://www.youtube.com/watch?v=3IdKyi-KezU)
