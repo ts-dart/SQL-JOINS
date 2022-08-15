@@ -99,6 +99,23 @@ tabela actor.
       LEFT JOIN actor AS s
       ON a.first_name = s.first_name;
 
+### Resolução exercicios agora a pratica 7
+* Exercício 7: Faça uma query que busque os campos 'staff_id', 'first_name' e 'last_name' na tabela staff, busque também o campo 'rental_date' na tabela rental que tenha correspondência com esse staff e busque também o campo 'amount' na tabela payment que tenha correspondência com esse rental.
+
+    Resolução:
+
+      SELECT 
+        s.staff_id, 
+        s.first_name, 
+        s.last_name,  
+        p.amount, 
+        r.rental_date 
+      FROM staff AS s
+        INNER JOIN rental AS r
+          ON s.staff_id = r.staff_id
+        INNER JOIN payment AS p
+          ON r.rental_id = p.rental_id; 
+
 ### Resolução de exercicios bônus
 * Exercicio bônus: faça uma query que busque o nome de todos os filmes na tabela film e a categoria que cada filme na tabela 
 category 

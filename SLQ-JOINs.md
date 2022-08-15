@@ -450,6 +450,8 @@ atuaram nesses filmes na tabela actor.
 * Exercício 6: Faça uma query que busque todos os campos 'first_name' da tabela staff e apenas os campos 'first_name' correspondentes da 
 tabela actor.
 
+* Exercício 7: Faça uma query que busque os campos 'staff_id', 'first_name' e 'last_name' na tabela staff, busque também o campo 'rental_date' na tabela rental que tenha correspondência com esse staff e busque também o campo 'amount' na tabela payment que tenha correspondência com esse rental.
+
 * Exercício bônus: faça uma query que busque o nome de todos os filmes na tabela film e a categoria que cada filme na tabela 
 category.
 
