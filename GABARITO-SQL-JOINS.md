@@ -32,9 +32,9 @@
 
   Resolução:
 
-    SELECT alid.album_id, arid.artist_id FROM albums AS alid
-    INNER JOIN albums AS arid
-    ON alid.album_id = arid.artist_id;
+      SELECT alid.album_id, arid.artist_id FROM albums AS alid
+      INNER JOIN albums AS arid
+      ON alid.album_id = arid.artist_id;
 
 ### Resolução exercicios agora a pratica 1
 * Exercício 1: faça uma query e utilize o INNER JOIN, busque as cidades na tabela city e busque localizações referentes a essas cidades na
