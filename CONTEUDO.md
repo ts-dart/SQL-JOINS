@@ -22,8 +22,7 @@ dia de hoje vamos estudar a fundo esse assunto para que você possa aperfeçoar 
 em SQL, vamos nessa? :rocket::rocket:
 
 ### Você será capaz de:
-Com o conteúdo de hoje você será capaz de usar INNER JOIN, RIGTH JOIN, LEFT JOIN,
-FULL JOIN E CROSS JOIN em suas querys
+Com o conteúdo de hoje você será capaz de usar INNER JOIN, RIGTH JOIN, LEFT JOIN e SELF JOIN em suas querys
 
 ## Porque isso é importante?
 Os JOINs dentro da linguaguem SQL, são uma ferramenta de suma iportancia que 
@@ -46,7 +45,10 @@ vamos com tudo para o conteudo de hoje. :books:
 
   O código SQL abaixo cria uma base de dados, copie o código abaixo e cole no seu
   Workbench, execute o código para criar a base de dados.
-
+  
+  <details>
+  <summary>Pegue o codigo aqui</summary><br/>
+  
     CREATE DATABASE IF NOT EXISTS SpotifyClone;
     USE SpotifyClone;
 
@@ -258,9 +260,10 @@ vamos com tudo para o conteudo de hoje. :books:
       (36,	21,	'2017-12-04 05:33:43',	10),
       (37,	12,	'2017-07-27 05:24:49',	10),
       (38,	13,	'2017-12-25 01:03:57',	10);
+  </details>
 
-    Agora com a nossa base de dados que será usada em exemplos criada podemos 
-    prosseguir com o conteúdo
+   Agora com a nossa base de dados que será usada em exemplos criada podemos 
+   prosseguir com o conteúdo
 
   ### Entendendo o INNER JOIN
   Dentro dos métodos de junção o INNER JOIN talvez seja um dos mais utilizados,
