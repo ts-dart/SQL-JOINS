@@ -29,7 +29,7 @@ Os JOINs dentro da linguaguem SQL, são uma ferramenta de suma iportancia que
 todo dev que trabalha com SQL precisa ter em sua caixa de ferramentas! os Joins 
 tem como função, juntar dados de acordo com condições especificas e são fundamentais
 na escrita de querys, quando se precisa buscar dados em mais de uma tabela, dada sua importancia 
-vamos com tudo para o conteudo de hoje. :books: 
+vamos com tudo para o conteudo de hoje. Combinado? :books: 
 
 <img src="https://media4.giphy.com/media/J4JSpIwM6y3Q6xnHgg/200.webp?cid=ecf05e47dngwjz1ezw618lkzhkti3msp24vvocxexjr32crf&rid=200.webp&ct=g" alt="Um gif mostrando uma mão saindo de um monitor de computador antigo branco e uma mulher apertando essa mão que sai da tela do computador">
   
